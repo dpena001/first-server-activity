@@ -16,9 +16,9 @@ var serverone = http.createServer(handleRequestone);
 var servertwo = http.createServer(handleRequesttwo);
 
 serverone.listen(portone,function(){
-    
+    console.log("Server listening on:",portone);
 });
 
 servertwo.listen(porttwo,function(){
-    
+    console.log("Server listening on:",porttwo);
 });
